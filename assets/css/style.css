@@ -1,0 +1,201 @@
+* {
+    color: #eee;
+    font-family: arial;
+}
+body {
+    background-color: #ccc;
+    background-image: url(../images/3376592.jpg);
+}
+header {
+    background-color: #39aae1;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.login {
+    margin-right: 26px;
+    font-size: 20px;
+}
+.login a {
+    text-decoration: none;
+    padding: 14px;
+}
+.quadrado {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 500px;
+    height: 380px;
+    border: 2px solid #39aae1;
+    margin-top: 80px;
+    border-radius: 50px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #39aae1;
+}
+.bar {
+    border-bottom: 2px solid #39aae1;
+    width: 75%;
+    margin-left: 63px;
+}
+.nomes {
+    display: flex;
+    justify-content: space-between;
+}
+.nome_title {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nome_title2 {
+    margin-top: 20px;
+}
+.nome {
+    width: 30%;
+    height: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 5px;
+    color: black;
+}
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+.idade_title {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.telefone_title {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.idade {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 100px;
+    color: black;
+}
+.telefone {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+    width: 43%;
+    color: black;
+}
+.email_line {
+    display: flex;
+    justify-content: flex-start;
+}
+.email_title {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.email {
+    width: 81%;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: black;
+}
+.senhas {
+    display: flex;
+    justify-content: space-between;
+}
+.senha_title {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.senha_title2 {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.senha {
+    width: 50%;
+    height: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 5px;
+    color: black;
+}
+.sexos {
+    display: flex;
+}
+.sexo_title {
+    margin-left: 20px;
+}
+.sexo {
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.enviar {
+    background-color: #39aae1;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.enviar a {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+@media (max-width:530px), (min-width:377px) {
+    .container {
+        width: 400px;
+        height: 380px;
+    }
+    .login {
+        margin-right: 15px;
+    }
+}
+@media (max-width:376px) {
+    .container {
+        width: 95%;
+        height: 350;
+    }
+    .login {
+        margin-right: 10px;
+    }
+    .nome_title,
+    .nome_title2 {
+        font-size: 13px;
+    }
+    .nome {
+        height: 13px;
+    }
+    .idade_title,
+    .telefone_title {
+        font-size: 13px;
+    }
+    .idade {
+        width: 10%;
+        height: 13px;
+    }
+    .telefone {
+        height: 13px;
+    }
+    .email_title {
+        font-size: 13px;
+    }
+    .email {
+        height: 13px;
+    }
+    .senha_title {
+        font-size: 13px;
+    }
+    .senha {
+        height: 13px;
+    }
+    .sexo_title {
+        font-size: 13px;
+    }
+    .sexo {
+        height: 13px;
+        font-size: 13px;
+    }
+}

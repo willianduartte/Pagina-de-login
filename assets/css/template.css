@@ -1,0 +1,94 @@
+* {
+    font-family: arial;
+}
+body {
+    background-image: url("../images/3376592.jpg");
+}
+.quadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.container {
+    width: 350px;
+    height: 250px;
+    border: 1px solid #39aae1;
+    border-radius: 20px;
+}
+.title {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #39aae1;
+}
+.bar {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-bottom: 2px solid #39aae1;
+    width: 85%;
+}
+.email_title {
+    margin-left: 15px;
+    color: #eee;
+}
+.email {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 85%;
+    border-radius: 5px;
+}
+.senha_title {
+    margin-left: 15px;
+    color: #eee;
+}
+.senha {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 85%;
+    border-radius: 5px;
+}
+.checkbox {
+    margin-left: 15px;
+    color: #eee;
+}
+.submit {
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 85%;
+    background-color: #05f;
+    text-decoration: none;
+    color: #eee;
+}
+.cadastre_se {
+    display: flex;
+    justify-content: center;
+    background-color: #39aaf0;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cadastre_se a {
+    color: #05f;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 250px;
+        height: 250px;
+    }
+    .cadastre_se {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .checkbox {
+        font-size: 15px;
+    }
+}
