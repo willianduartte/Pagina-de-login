@@ -27,28 +27,29 @@
             </section>
             <section class="numbers">
                 <div class="idade_title">Idade: </div>
-                <input class="idade" type="number">
+                <input class="idade" type="number" name="idade">
                 <div class="telefone_title">Telefone: </div>
-                <input class="telefone" type="tel" />
+                <input class="telefone" type="tel" name="telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="(00) 0000-0000" />
             </section>
             <section class="email_line">
                 <div class="email_title">Email: </div>
-                <input class="email" type="email">
+                <input class="email" type="email" name="email" placeholder="exemplo@gmail.com.br">
             </section>
             <section class="senhas">
                 <div class="senha_title">Senha: </div>
-                <input class="senha" type="password">
+                <input class="senha" type="password" name="senha">
                 <div class="senha_title2">Confirmar senha: </div>
-                <input class="senha" type="password">
+                <input class="senha" type="password" name="senha">
             </section>
             <section class="sexos">
                 <div class="sexo_title">Sexo:</div>
-                <div class="sexo"><input type="checkbox"> M </div>
-                <div class="sexo"><input type="checkbox"> F </div>
+                <div class="sexo"><input type="checkbox" name="checkbox"> M </div>
+                <div class="sexo"><input type="checkbox" name="checkbox"> F </div>
             </section>
             <section class="quadrado">
-                <div class="enviar"><a href="">Enviar</a></div>
+                <div class="enviar"><a href="Enviado.html">Enviar</a></div>
             </section>
+            <div class="creditos">Criado por:  <a href="https://github.com/willianduartte">Willian Duarte</a></div>
         </form>
     </div>
 </body>

@@ -2,6 +2,9 @@
     color: #eee;
     font-family: arial;
 }
+input {
+    border-radius: 10px;
+}
 body {
     background-color: #ccc;
     background-image: url(../images/3376592.jpg);
@@ -40,7 +43,8 @@ header {
 .bar {
     border-bottom: 2px solid #39aae1;
     width: 75%;
-    margin-left: 63px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .nomes {
     display: flex;
@@ -144,19 +148,47 @@ header {
     padding-bottom: 15px;
     text-decoration: none;
 }
+.creditos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #39aae1;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+    color: #000;
+}
+.creditos a {
+    margin-left: 5px;
+    color: #05f;
+    text-decoration: none;
+}
 @media (max-width:530px), (min-width:377px) {
     .container {
         width: 400px;
         height: 380px;
     }
+    .bar {
+        width: 75%;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
     .login {
         margin-right: 15px;
+    }
+    .creditos {
+        margin-top: 40px;
     }
 }
 @media (max-width:376px) {
     .container {
         width: 95%;
         height: 350;
+    }
+    .bar {
+        width: 70%;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .login {
         margin-right: 10px;

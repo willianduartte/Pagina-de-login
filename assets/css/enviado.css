@@ -1,0 +1,25 @@
+* {
+    font-family: arial;
+}
+body {
+    background-image: url("../images/3376592.jpg");
+}
+.quadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 650px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enviado {
+    font-size: 30px;
+    color: #fff;
+    border-radius: 40px;
+    background-color: #39aae1;
+    padding: 20px;
+}
